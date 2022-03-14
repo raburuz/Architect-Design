@@ -1,0 +1,563 @@
+@media screen and (max-width: 1600px) {
+      .inicio_primer_img2 {
+            height: 86%;
+      }
+      .nav {
+            width: 100%;
+      }
+}
+
+@media screen and (max-width: 1250px) {
+      .inicio_segundo_img2 {
+            height: 55%;
+            width: 82%;
+      }
+      .inicio_img1 {
+            width: 100%;
+      }
+      .inicio_primer_img2 {
+            width: 85%;
+      }
+      .inicio_img3 {
+            width: 100%;
+            height: 100%;
+      }
+      .h2_inicio_profesionales {
+            font-size: 28px;
+      }
+}
+
+@media screen and (max-width: 1000px) {
+      /****************************
+ Inicio 
+ ****************************/
+
+      .inicio_primer_pt1_hijo {
+            margin-left: 30px;
+      }
+      .inicio_segundo_pt1_hijo {
+            margin-right: 30px;
+      }
+      .inicio_tercera_pt1 {
+            padding-left: 3%;
+      }
+      .inicio_galeria {
+            width: 95%;
+      }
+      .inicio_primer_img2 {
+            left: 92%;
+      }
+
+      /****************************
+Nosotros 
+****************************/
+
+      .nosotros_tercera_h2 {
+            margin-bottom: 160px;
+      }
+      .ocultar {
+            display: none;
+      }
+      .h2_direccion {
+            font-size: 34px;
+      }
+      .nosotros_primer_hijo_p {
+            padding: 0;
+      }
+      .nosotros_primer_imagen {
+            display: none;
+      }
+}
+
+@media screen and (max-width: 850px) {
+      /****************************
+Generales
+****************************/
+      .nav li:not(:last-of-type) {
+            padding-right: 30px;
+      }
+      .footer_pt_1_hijo {
+            width: 34%;
+      }
+      /****************************
+Inicio
+****************************/
+      .inicio_primer,
+      .inicio_segundo,
+      .inicio_tercera,
+      .inicio_cuarta,
+      .inicio_quinta {
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-height: none;
+            height: 100%;
+      }
+
+      /* Generales */
+      .flex {
+            flex: 1 1 500px;
+            /*      margin-bottom: 210px; */
+      }
+
+      .inicio_primer_pt1_hijo {
+            margin-left: 8%;
+            position: absolute;
+      }
+      .inicio_primer_img2 {
+            height: 95%;
+            width: 82%;
+      }
+      .inicio_primer_pt1 {
+            height: 100vh;
+      }
+      /*     .inicio_primer_pt2_hijo {
+            margin-top: 120%;
+      } */
+      .inicio_primer_pt2_hijo {
+            margin-top: 4%;
+      }
+      /* inicio segunda parte */
+      /*   .inicio_segundo_acople {
+            margin-top: 0%;
+      } */
+      .inicio_segundo_pt2 {
+            order: -1;
+            height: 100vh;
+            /*height: 520px;*/
+      }
+      .inicio_segundo_pt1_hijo {
+            position: absolute;
+      }
+      .inicio_segundo_img2 {
+            height: 100%;
+            width: 70%;
+            bottom: 112%;
+      }
+      /*    .inicio_segundo_pt1 {
+            margin-top: 95%;
+      } */
+      /* Inicio tercera parte */
+      .inicio_tercera_pt1 {
+            padding-left: 0;
+      }
+      .inicio_tercera_pt2 {
+            margin: 0;
+            height: 300px;
+      }
+      .inicio_tercera_acople {
+            margin-top: 7%;
+      }
+      /* inicio quinta parte */
+      .inicio_quinta_h2 {
+            margin-top: 110px;
+      }
+
+      /* Flex Galeria*/
+
+      .flex_galeria {
+            flex: 1 1 300px;
+      }
+      .inicio_galeria_texto {
+            width: 95%;
+      }
+      .inicio_galeria {
+            height: 90%;
+      }
+      /*********************** 
+      Nosotros
+       ******************/
+      /* Primera parte */
+      .nosotros_primer {
+            justify-content: center;
+      }
+      .nosotros_primer_hijo {
+            margin: 0 auto;
+      }
+
+      /* nosotros segunda parte */
+      .nosotros_segunda_ajuste {
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-height: 438px;
+            margin-bottom: 130px;
+      }
+      .nosotros_segunda_p1 {
+            width: 100%;
+            text-align: center;
+      }
+
+      .nosotros_segunda_p2,
+      .nosotros_segunda_p3 {
+            width: 50%;
+      }
+      .nosotros_segunda__parrafo {
+            margin: 0 auto;
+      }
+      /* Nosotros Tercera Parte */
+      .nosotros_tercera_h2 {
+            margin-bottom: 60px;
+      }
+      .nosotros_equipo_ajustar {
+            margin-bottom: 40px;
+      }
+      /* Cuarta  */
+      .nosotros_cuarta {
+            max-height: 800px;
+            margin-bottom: 0;
+      }
+      .nosotros_cuarta_p1 {
+            margin-top: 80px;
+      }
+      .nosotros_cuarta_acoplar {
+            padding-top: 50px;
+      }
+      .nosotros_cuarta__parrafo {
+            padding-top: 10px;
+            margin: 0 auto;
+            padding-bottom: 20px;
+      }
+      .nosotros_quinta_imagen_final {
+            background-color: var(--color-bg-tercero);
+      }
+
+      /*******************************
+       Trabajos 
+      *************************/
+      .trabajos_texto {
+            width: 70%;
+      }
+      /*******************************
+       Contactos 
+      *************************/
+      /* contacto segunda parte  formulario*/
+      .contacto_segunda {
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-bottom: 130px;
+      }
+      .contacto_segunda_p2 {
+            width: 75%;
+            align-self: normal;
+            margin: 0 auto;
+      }
+      .ajuste_centrado_parrafo {
+            margin: 0 auto;
+      }
+      .contacto_segunda_p2__formulario {
+            width: 100%;
+      }
+
+      /*contacto 3 parte */
+      .contacto_tercera_p1 {
+            width: 50%;
+      }
+      .contacto_tercera_p2_acoplar {
+            width: 50%;
+            margin: 0 auto;
+            padding-top: 20px;
+      }
+}
+@media screen and (max-width: 720px) {
+      /*********************** 
+      Generales
+       ******************/
+      body {
+            background-color: var(--color-bg-tercero);
+      }
+      .footer_pt_1_hijo {
+            width: 40%;
+      }
+      .btn {
+            width: 100%;
+      }
+      .menu_principal {
+            display: none;
+      }
+      /* Menu */
+      .logo {
+            padding-left: 90%;
+      }
+      .nav {
+            justify-content: space-between;
+      }
+      /* menu hamburguesas */
+
+      .menu_hamburguesa {
+            display: block;
+            position: absolute;
+            top: 60px;
+            right: 10%;
+      }
+
+      .menu_hamburguesa input {
+            display: none;
+      }
+      .menu_hamburguesa label {
+            color: #f9f9f9;
+            cursor: pointer;
+            font-size: 1.6em;
+            /*     user-select: none; */
+      }
+      #ul_menu {
+            display: none;
+      }
+
+      input[type='checkbox']:checked ~ #ul_menu {
+            display: block;
+      }
+
+      #ul_menu {
+            position: absolute;
+            top: 40px;
+            right: 0px;
+            width: 155px;
+      }
+      .menu_hamburguesa li {
+            display: block;
+            background: #272c30;
+            border-top: 1px solid #3b3b3b;
+      }
+      .menu_hamburguesa li a {
+            box-sizing: border-box;
+            display: block;
+            color: #f9f9f9;
+            width: 100%;
+            padding: 10px 15px;
+      }
+      .menu_hamburguesa li a:hover {
+            color: #b2b2b2;
+      }
+
+      /*********************** 
+      Inicio
+       ******************/
+      .inicio_primer_pt2_hijo {
+            margin-top: 0%;
+      }
+      /*   .inicio_segundo_acople {
+            margin-top: 20%;
+      } */
+      .inicio_tercera_acople {
+            margin-top: 8%;
+      }
+      .inicio_galeria_texto {
+            padding-bottom: 40px;
+      }
+
+      .inicio_segundo_img2 {
+            right: 29%;
+            height: 82%;
+      }
+      /*********************** 
+      Nosotros
+       ******************/
+      .nosotros_primer_hijo {
+            width: 80%;
+      }
+      .nosotros_quinta_imagen_final {
+            margin-top: 130px;
+      }
+      .acomodar_texto_equipo {
+            width: 95%;
+      }
+      /*******************************
+       Trabajos 
+      *************************/
+      .trabajos_texto {
+            width: 85%;
+      }
+}
+@media screen and (max-width: 620px) {
+      /*********************** 
+      Generales
+      ************************+*/
+      .presentacion_hijo {
+            width: 85%;
+      }
+      .logo {
+            padding-left: 40%;
+      }
+      /*********************** 
+      Inicio
+      ******************/
+      /*  .inicio_primer_pt2_hijo {
+            margin-top: 110%;
+      } */
+      .inicio_segundo_acople {
+            margin-top: 0%;
+      }
+      .inicio_tercera_acople {
+            margin-top: 4%;
+      }
+      .parrafo_equipo {
+            max-width: 600px;
+      }
+      /*******************************
+       Trabajos 
+      *************************/
+      .trabajos_texto {
+            width: 100%;
+      }
+      .trabajos_texto_hijo {
+            width: 90%;
+            margin: 0 auto;
+      }
+      /*******************************
+       Contacto 
+      *************************/
+      .contacto_tercera_p2_acoplar {
+            width: 70%;
+      }
+}
+@media screen and (max-width: 580px) {
+      /*********************** 
+      Generales
+      ************************+*/
+      .titular {
+            font-size: 54px;
+      }
+      .footer_pt_1_hijo {
+            width: 55%;
+      }
+      .logo {
+            padding-left: 35%;
+      }
+      /*********************** 
+      Nosotros
+      ************************+*/
+      .nosotros_tercera_h2 {
+            padding-top: 100px;
+      }
+      .nosotros_quinta_imagen_final {
+            margin-top: 80px;
+      }
+      /*********************** 
+      Inicio
+      ************************+*/
+      /*   .inicio_primer_pt2_hijo {
+            margin-top: 130%;
+      } */
+      /*   .inicio_segundo_acople {
+            margin-top: 90%;
+      } */
+      .inicio_tercera_acople {
+            margin-top: 5%;
+      }
+      /*  .inicio_segundo_pt1 {
+            margin-top: 85%;
+      } */
+
+      .inicio_segundo_img2 {
+            height: 74%;
+            bottom: 100%;
+      }
+
+      .btn_acople {
+            width: 80%;
+      }
+      /*********************** 
+      Contacto
+      ************************+*/
+      .contacto_tercera_p2_acoplar {
+            padding-top: 40px;
+      }
+      .h2_contacto_tercera {
+            font-size: 32px;
+      }
+}
+
+@media screen and (max-width: 500px) {
+      .h2 {
+            font-size: 34px;
+      }
+      .titular {
+            padding-bottom: 5px;
+            font-size: 45px;
+      }
+      .guion {
+            padding-bottom: 10px;
+      }
+      .h2_contacto_tercera {
+            font-size: 28px;
+      }
+      .nosotros_tercera_h2 {
+            padding-top: 200px;
+      }
+      .inicio_tercera_pt1 {
+            padding-bottom: 0;
+      }
+      .inicio_segundo_img2 {
+            height: 60%;
+            bottom: 75%;
+      }
+
+      /* Mobile fallos */
+      .inicio_primer_pt2_hijo {
+            margin-top: 8%;
+      }
+      .inicio_segundo_pt1 {
+            margin-top: 8%;
+      }
+
+      .inicio_tercera_pt1 {
+            height: 420px;
+            padding-bottom: 40px;
+      }
+      .inicio_galeria {
+            height: 400px;
+      }
+
+      /* Imagenes */
+      .inicio_primer_pt1 {
+            height: 475px;
+      }
+      .inicio_img1 {
+            height: 80%;
+            width: 114%;
+      }
+      .inicio_img2 {
+            height: 80%;
+            width: 86%;
+            left: 80%;
+      }
+      .inicio_segundo_pt2 {
+            height: 420px;
+      }
+      .inicio_img3 {
+            height: 80%;
+      }
+      /* Pequeños ajustes */
+      .inicio_cuarta_hijo {
+            margin-top: 12%;
+      }
+      .nosotros_segunda_ajuste {
+            max-height: 600px;
+      }
+      .nosotros_tercera_h2 {
+            padding-top: 100px;
+      }
+      .h3 {
+            font-size: 16px;
+            letter-spacing: 2px;
+      }
+}
+@media screen and (max-width: 490px) {
+      .nosotros_tercera_h2 {
+            padding-top: 175px;
+      }
+      .inicio_tercera_pt2 {
+            height: 350px;
+      }
+      .inicio_cuarta_hijo {
+            margin-top: 18%;
+      }
+      .nosotros_segunda_p1 {
+            margin-bottom: 20px;
+      }
+      .h2 {
+            font-size: 30px;
+      }
+      .nosotros_segunda_ajuste {
+            height: 660px;
+      }
+}
